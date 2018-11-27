@@ -1,0 +1,21 @@
+r0 = result
+r1 = counter
+r2 = previous multiplied numbers
+r3 = new multiplied numbers
+.global factorial
+.balign 2
+.text
+
+factorial:
+mov r1, r0
+
+loop {
+sub r1,r1,#1
+sub r2,
+mul r3, r3, r2
+
+
+cmp r1, #1
+bgt loop
+}
+bx lr

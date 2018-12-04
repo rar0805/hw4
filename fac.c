@@ -9,5 +9,5 @@ int factorial_inefficient(int n) {
 	return result;
 }
 int main() {
-	return factorial_inefficient(5);
+	return factorial(5);
 }
